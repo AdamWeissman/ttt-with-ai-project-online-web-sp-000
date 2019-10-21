@@ -65,5 +65,3 @@ class CLI
         puts "See you next time!"
     end
 end
-
-CLI.new
