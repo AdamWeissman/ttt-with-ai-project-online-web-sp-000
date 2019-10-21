@@ -6,6 +6,7 @@ puts "Welcome to Tic Tac Toe!"
 game = Game.new
 until game.won?
   game.play
+  game.display
 end
 
 play_again = ""
