@@ -2,6 +2,7 @@
 
 require_relative '../config/environment'
 
+=begin
 puts "Welcome to Tic Tac Toe!"
 game = Game.new
 until game.won?
@@ -19,3 +20,4 @@ until play_again.downcase == "n" || play_again.downcase == "no"
     game.play
   end
 end
+=end
