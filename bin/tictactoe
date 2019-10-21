@@ -3,6 +3,8 @@
 require_relative '../config/environment'
 
 =begin
+
+THIS DOESN'T WORK (didn't refactor ... well... sorta works, but no display)
 puts "Welcome to Tic Tac Toe!"
 game = Game.new
 until game.won?
